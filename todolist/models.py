@@ -7,7 +7,7 @@ class Category(models.Model):
 
     class Meta:
         name_category = ('Category')
-        name_category_plural = ('Categories')       #множественное имя для Категорий
+        name_category_plural = ('Categories')       # множественное имя для Категорий
 
     def __str__(self):
         return self.name        # __str__ применяется для отображения объекта в интерфейсе
